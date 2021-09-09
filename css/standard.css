@@ -1,7 +1,7 @@
 html,
 body{
     margin: 0;
-    color: white;
+    color: black;
     font-size: 1.8vh;
     
 }
@@ -71,6 +71,7 @@ div>span>a{
     font-family: 'Permanent Marker', cursive;
     color:#6c89db;
     background-image: url("../images/alexotos.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -443,6 +444,20 @@ h1{
         height: 33%;
       }
 
+      #Create{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 92%;
+        left: 35%;
+        color: white;
+        font-size: large;
+    } 
+
+    .btn-default{
+        position: fixed;
+        top: 89%;
+        left: 50%;
+    }    
     /*Intro page*/
 
     .introcontainer{
